@@ -51,5 +51,6 @@ dependencies {
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("org.jsoup:jsoup:1.11.3")
+    compile('org.apache.commons:commons-email:1.6-SNAPSHOT')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
